@@ -61,3 +61,7 @@ php artisan migrate
 Username: hilmanhanafi
 Password: password123
 ```
+
+## 🖼️ Route Aplikasi
+
+![Tampilan Login](public/route.png)
