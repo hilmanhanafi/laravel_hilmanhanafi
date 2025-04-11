@@ -48,3 +48,16 @@ DB_DATABASE=laravel_hilmanhanafi
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+
+### 3. Lakukan Migration
+
+```bash
+php artisan migrate
+```
+
+### 4. Username dan Password
+
+```bash
+Username: hilmanhanafi
+Password: password123
+```
