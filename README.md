@@ -9,7 +9,7 @@
 
 ## How To use
 
-# 🏥 Laravel Hospital Management System
+# Laravel Hospital Management System
 
 ![Laravel](https://img.shields.io/badge/Laravel-10.x-red.svg)
 ![License](https://img.shields.io/github/license/your-username/your-repo-name)
@@ -19,7 +19,7 @@ Sistem manajemen rumah sakit berbasis web menggunakan Laravel. Fitur utama terma
 
 ---
 
-## 🚀 Fitur
+## Fitur
 
 -   Login dan Register menggunakan **username** (bukan email)
 -   CRUD Rumah Sakit (dengan AJAX)
@@ -29,13 +29,22 @@ Sistem manajemen rumah sakit berbasis web menggunakan Laravel. Fitur utama terma
 
 ---
 
-## ⚙️ Instalasi
+## Instalasi
 
-### 1. Clone Project
+### 1. Setting ENV
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+rename file .env.example menjadi .env
 
+```
 
+### 2. Setting Database di ENV
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel_hilmanhanafi
+DB_USERNAME=root
+DB_PASSWORD=
 ```
